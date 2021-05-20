@@ -16,4 +16,5 @@ jobs:
     - run: npm test
       env:
         CI: true
-        API_KEY: ${{ secrets.ZOOM_API_KEY }}
+        API_KEY: ${{ secrets.API_KEY }}
+        
