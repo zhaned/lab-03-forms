@@ -3,8 +3,9 @@ import PropTypes from 'prop-types';
 
 const Search = ({ value, onValueChange, onSubmit }) => (
   <form onSubmit={onSubmit}>
-    <label>Type a keyword{` `}</label>
+    <label htmlFor="search-keyword">Type a keyword</label>
     <input 
+      id='search-keyword'
       type='text'
       value={value}
       onChange={onValueChange}
